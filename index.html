@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jquery Multiple Select</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript" ></script>
+<script src="js/jquery-multiple-select.js" type="text/javascript" ></script>
+
+</head>
+
+<body>
+<!--// Main Div -->
+<div class="main-div">
+<!---// Multiple Select -->
+<div class="jquery-multiple-select">
+   <ul>
+      <li>Type 1</li>
+      <li>Type 2</li>
+      <li>Type 3</li>
+      <li>Type 4</li>
+      <li>Type 5</li>
+      <li>Type 6</li>
+      <li>Type 7</li>
+   </ul>
+</div>
+<!--// Jquery Multiple Select Result -->
+<div class="custom-result-section"></div>
+
+</div>
+<!---// Multiple Select END -->
+
+
+
+
+<!---// Jquery Multiple Select Result End --->
+</body>
+<script>
+// Define Class name where you want to select list , its must be ul and li
+$('.jquery-multiple-select li').JqueryMultipleSelect({
+	ResultBackgroundColor:'#5fcf80',
+	ResultClass:'custom-result-section', // Where you want to show result
+	AddExtraClassinResult:'custom-result-list', // Add Class in Result Div
+	AddExtraClassinSelectList:'custom-select-list',// All Class on div that contain select li
+	AddClassOnDeleteIcon:'custom-delete-icon', // Class on Result File cancel button
+	
+	});
+</script>
+</html>>
