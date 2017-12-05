@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# jQuery Simple Multiple Select Li
 
-You can use the [editor on GitHub](https://github.com/hariom15791/jquery-multiple-select-plugin/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Demo
+[Demo File Upload](https://blueimp.github.io/jquery-multiple-select-plugin/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description
+This is very simple 'Jquery Multiple Select Plugin'.You can select any list only on click and deselect it on again click on same list. when you click on any list its show seleted list content in your result 'Div' section, where you can cancel any result when you cancel any result than same value deselect in List.
 
-### Markdown
+## Author
+The Author of this plugin is 'Hariom Srivastava'.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
+You can add Class in 'Main Select List','Result Section Div', and 'Cancel icon in result Div'.You can also change 'Background Image' of 'Result Section Div'.
 
-```markdown
-Syntax highlighted code block
+### Mandatory requirements
+* [jQuery](https://jquery.com/) v. 1.6+
 
-# Header 1
-## Header 2
-### Header 3
+### Desktop browsers
+The Jquery Multiple Select Plugin is regularly tested with the latest browser versions and supports the following minimal versions:
 
-- Bulleted
-- List
+* Google Chrome
+* Apple Safari 4.0+
+* Mozilla Firefox 3.0+
+* Opera 11.0+
+* Microsoft Internet Explorer 6.0+
 
-1. Numbered
-2. List
+### Mobile browsers
+The Jquery Multiple Select Plugin has been tested with and supports the following mobile browsers:
 
-**Bold** and _Italic_ and `Code` text
+* Apple Safari on iOS 6.0+
+* Google Chrome on iOS 6.0+
+* Google Chrome on Android 4.0+
+* Default Browser on Android 2.3+
+* Opera Mobile 12.0+
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hariom15791/jquery-multiple-select-plugin/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+Released under the [MIT license](https://opensource.org/licenses/MIT).
+"# jquery-multiple-select-plugin" 
