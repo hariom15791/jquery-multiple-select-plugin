@@ -1,7 +1,7 @@
 # jQuery Simple Multiple Select Li
 
 ## Demo
-[Demo File Upload](https://blueimp.github.io/jquery-multiple-select-plugin/)
+[Demo File Upload](https://hariom15791.github.io/jquery-multiple-select-plugin/)
 
 ## Description
 This is very simple 'Jquery Multiple Select Plugin'.You can select any list only on click and deselect it on again click on same list. when you click on any list its show seleted list content in your result 'Div' section, where you can cancel any result when you cancel any result than same value deselect in List.
